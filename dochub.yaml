@@ -10,3 +10,19 @@ imports:
   - https://alpha.dochub.info/archcode/_metamodel_/ceaf-app/dochub.yaml
   # Базовая документация по DocHubIDE
   - https://alpha.dochub.info/archcode/dochub.yaml
+
+docs: 
+  hr.main:
+    location: HR
+    type: markdown
+    subjects:
+      - hr.main
+    source: main.md
+
+  hr.initial:
+    type: bpmnjs
+    source: hr.initial.bpmn
+    
+  hr.applicants:
+    type: bpmnjs
+    source: hr.applicants.bpmn
